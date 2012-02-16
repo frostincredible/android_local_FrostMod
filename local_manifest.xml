@@ -17,10 +17,10 @@
   <remove-project name="CyanogenMod/android_vendor_cm" />
 
   <!-- CM replacements -->
-  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" />
+  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-dhmod" />
   <project path="build" name="STS-Dev-Team/android_build" />
-  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" />
+  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-lte" />
+  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-dhmod" />
   <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="STS-Dev-Team/android_system_core" />
   <project path="system/core" name="STS-Dev-Team/android_vendor_cm" />
@@ -31,8 +31,8 @@
 
   <!-- local projects -->
   <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" />
-  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" />
-  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" />
+  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" revision="ics-dhmod" />
+  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" revision="ics-dhmod" />
   <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_camera" revision="ics-hybrid-solana" />
   <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_omap4xxx" revision="ics-hybrid" />
   <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" />
