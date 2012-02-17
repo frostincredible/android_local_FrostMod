@@ -19,7 +19,9 @@
 
   <!-- CM replacements -->
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" revision="ics-lte" />
-  <project path="build" name="STS-Dev-Team/android_build" />
+  <project path="build" name="STS-Dev-Team/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" revision="ics-lte" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-lte" />
   <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" />
