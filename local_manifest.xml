@@ -13,6 +13,7 @@
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="CyanogenMod/android_packages_apps_Phone" />
   <remove-project name="CyanogenMod/android_packages_providers_ContactsProvider" />
+  <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
 
   <!-- CM replacements -->
